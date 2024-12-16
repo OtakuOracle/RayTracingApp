@@ -15,14 +15,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RayTracingApp
-build_property.ProjectDir = C:\Users\User\Desktop\RayTracing\
+build_property.ProjectDir = C:\Users\User\Desktop\RayTracingApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/User/Desktop/RayTracing/App.axaml]
+[C:/Users/User/Desktop/RayTracingApp/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/User/Desktop/RayTracing/Views/MainWindow.axaml]
+[C:/Users/User/Desktop/RayTracingApp/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

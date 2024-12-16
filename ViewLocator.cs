@@ -3,7 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using RayTracingApp.ViewModels;
 
-namespace belonging;
+namespace RayTracingApp;
 
 public class ViewLocator : IDataTemplate
 {

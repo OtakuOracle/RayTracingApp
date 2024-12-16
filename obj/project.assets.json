@@ -1480,11 +1480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\RayTracing\\RayTracingApp.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\RayTracingApp\\RayTracingApp.csproj",
       "projectName": "RayTracingApp",
-      "projectPath": "C:\\Users\\User\\Desktop\\RayTracing\\RayTracingApp.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\RayTracingApp\\RayTracingApp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\RayTracing\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\RayTracingApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
