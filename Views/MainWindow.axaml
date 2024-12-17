@@ -17,9 +17,9 @@
 		<!-- Панель с кнопками -->
 		<StackPanel Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10">
 			<Button Content="Квадрат" Click="OnDrawSquareClick" Margin="5"/>
-			<Button Content="Круг" Click="OnDrawPentagonClick" Margin="5"/>
-			<Button Content="Треугольник" Click="OnDrawPentagonClick" Margin="5"/>
-			<Button Content="Ромб" Click="OnDrawPentagonClick" Margin="5"/>
+			<Button Content="Круг" Click="OnDrawCircleClick" Margin="5"/>
+			<Button Content="Треугольник" Click="OnDrawTriangleClick" Margin="5"/>
+			<Button Content="Ромб" Click="OnDrawDiamondClick" Margin="5"/>
 			<Button Content="Пятиугольник" Click="OnDrawPentagonClick" Margin="5"/>
 			<Button Content="Восьмиугольник" Click="OnDrawOctagonClick" Margin="5"/>
 			<!-- Новая кнопка -->

@@ -280,7 +280,7 @@ namespace RayTracingApp.Views
             {
                 Width = 80,
                 Height = 80,
-                Fill = Brushes.Blue
+                Fill = Brushes.DeepPink
             };
 
             // Устанавливаем положение квадрата по центру холста
@@ -289,6 +289,26 @@ namespace RayTracingApp.Views
 
             AddShape(square); // Добавляем квадрат на холст
         }
+
+        private void OnDrawCircleClick(object? sender, RoutedEventArgs e)
+        {
+            ClearShapes();
+
+            // Создаем новый круг
+            var circle = new Ellipse
+            {
+                Width = 80,  // Ширина круга
+                Height = 80, // Высота круга
+                Fill = Brushes.Blue // Цвет заливки
+            };
+
+            // Устанавливаем позицию круга на холсте (например, по центру)
+            Canvas.SetLeft(circle, 40); // Позиция X
+            Canvas.SetTop(circle, 40);   // Позиция Y
+
+            AddShape(circle); // Добавляем круг на холст
+        }
+
 
         private void OnDrawPentagonClick(object? sender, RoutedEventArgs e)
         {
@@ -305,7 +325,7 @@ namespace RayTracingApp.Views
                     new Point(15, 80),
                     new Point(0, 30)
                 },
-                Fill = Brushes.Green
+                Fill = Brushes.Orange
             };
 
             Canvas.SetLeft(pentagon, (DrawingCanvas.Bounds.Width - 80) / 2);
@@ -336,6 +356,30 @@ namespace RayTracingApp.Views
             AddShape(triangle); // Добавляем треугольник на холст
         }
 
+        private void OnDrawDiamondClick(object? sender, RoutedEventArgs e)
+        {
+            ClearShapes();
+
+            // Создаем новый ромб с заданными вершинами и цветом
+            var diamond = new Polygon
+            {
+                Points = new Avalonia.Collections.AvaloniaList<Point>
+        {
+            new Point(40, 0),   // Верхняя вершина
+            new Point(80, 40),  // Правая вершина
+            new Point(40, 80),  // Нижняя вершина
+            new Point(0, 40)    // Левая вершина
+        },
+                Fill = Brushes.Green // Цвет заливки
+            };
+
+            // Устанавливаем позицию ромба на холсте (по центру)
+            Canvas.SetLeft(diamond, (DrawingCanvas.Bounds.Width - 80) / 2);
+            Canvas.SetTop(diamond, (DrawingCanvas.Bounds.Height - 80) / 2);
+
+            AddShape(diamond); // Добавляем ромб на холст
+        }
+
         private void OnDrawOctagonClick(object? sender, RoutedEventArgs e)
         {
             ClearShapes();
@@ -344,20 +388,22 @@ namespace RayTracingApp.Views
             var octagon = new Polygon
             {
                 Points = new Avalonia.Collections.AvaloniaList<Point>
-                {
-                    new Point(30, 0),
-                    new Point(50, 0),
-                    new Point(80, 30),
-                    new Point(80, 50),
-                    new Point(50, 80),
-                    new Point(30, 80),
-                    new Point(0, 50),
-                },
-                Fill = Brushes.Black
+        {
+            new Point(50, 0),   // Верхняя середина
+            new Point(100, 25), // Верхний правый угол
+            new Point(125, 75), // Средина правой стороны
+            new Point(100, 125),// Нижний правый угол
+            new Point(50, 150), // Нижняя середина
+            new Point(0, 125),  // Нижний левый угол
+            new Point(-25, 75), // Средина левой стороны
+            new Point(0, 25)    // Верхний левый угол
+        },
+                Fill = Brushes.Black // Цвет заливки
             };
 
+            // Устанавливаем позицию восьмиугольника на холсте (по центру)
             Canvas.SetLeft(octagon, (DrawingCanvas.Bounds.Width - 80) / 2);
-            Canvas.SetTop(octagon, (DrawingCanvas.Bounds.Height - 80) / 2);
+            Canvas.SetTop(octagon, (DrawingCanvas.Bounds.Height - 120) / 2);
 
             AddShape(octagon); // Добавляем восьмиугольник на холст
         }
