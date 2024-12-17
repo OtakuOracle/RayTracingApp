@@ -11,18 +11,6 @@
       "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,8 +19,24 @@
       "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|c:\\users\\user\\desktop\\raytracingapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE901C1-B0C9-4BF1-802D-E239FFB3A7AE}|RayTracingApp.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RayTracingApp\\App.axaml.cs",
+              "RelativeDocumentMoniker": "App.axaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RayTracingApp\\App.axaml.cs",
+              "RelativeToolTip": "App.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T09:18:43.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ViewLocator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\RayTracingApp\\ViewLocator.cs",
               "RelativeDocumentMoniker": "ViewLocator.cs",
@@ -66,23 +83,25 @@
               "RelativeToolTip": "ViewLocator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:43:35.939Z"
+              "WhenOpened": "2024-12-16T17:43:35.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\RayTracingApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\RayTracingApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:43:17.067Z"
+              "WhenOpened": "2024-12-16T17:43:17.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "app.manifest",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\RayTracingApp\\app.manifest",
               "RelativeDocumentMoniker": "app.manifest",
@@ -90,7 +109,8 @@
               "RelativeToolTip": "app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2024-12-16T17:42:59.888Z"
+              "WhenOpened": "2024-12-16T17:42:59.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -101,7 +121,8 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\RayTracingApp\\App.axaml",
               "RelativeToolTip": "App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-16T17:42:52.514Z"
+              "WhenOpened": "2024-12-16T17:42:52.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +132,7 @@
               "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\RayTracingApp\\Views\\MainWindow.axaml.cs*",
               "RelativeToolTip": "Views\\MainWindow.axaml.cs*",
-              "ViewState": "AgIAACsBAAAAAAAAAAAiwEcBAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAqwDoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T17:42:39.575Z",
               "EditorCaption": ""
@@ -130,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\RayTracingApp\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
@@ -138,12 +159,11 @@
               "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:41:49.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:41:49.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\RayTracingApp\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
@@ -151,7 +171,8 @@
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:41:41.234Z"
+              "WhenOpened": "2024-12-16T17:41:41.234Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -104,7 +104,7 @@ namespace RayTracingApp.Views
                 new Point(80, 80),  
                 new Point(0, 80)    
              },
-                Fill = Brushes.YellowGreen
+                Fill = Brushes.Red
             };
         }
 
@@ -122,7 +122,7 @@ namespace RayTracingApp.Views
                     new Point(15, 80),
                     new Point(0, 30)
                 },
-                Fill = Brushes.Black
+                Fill = Brushes.Orange
             };
         }
 
@@ -143,7 +143,7 @@ namespace RayTracingApp.Views
                     new Point(0, 50),
                     new Point(0, 30)
                 },
-                Fill = Brushes.DarkTurquoise
+                Fill = Brushes.Black
             };
         }
 
@@ -299,12 +299,16 @@ namespace RayTracingApp.Views
             {
                 Width = 80,  // Ширина круга
                 Height = 80, // Высота круга
-                Fill = Brushes.Blue // Цвет заливки
+                Fill = Brushes.DeepSkyBlue // Цвет заливки
             };
 
-            // Устанавливаем позицию круга на холсте (например, по центру)
-            Canvas.SetLeft(circle, 40); // Позиция X
-            Canvas.SetTop(circle, 40);   // Позиция Y
+            // Получаем размеры холста
+            double canvasWidth = DrawingCanvas.Bounds.Width;  // Ширина холста
+            double canvasHeight = DrawingCanvas.Bounds.Height; // Высота холста
+
+            // Устанавливаем позицию круга на холсте (по центру)
+            Canvas.SetLeft(circle, (canvasWidth - circle.Width) / 2); // Позиция X
+            Canvas.SetTop(circle, (canvasHeight - circle.Height) / 2); // Позиция Y
 
             AddShape(circle); // Добавляем круг на холст
         }
@@ -370,7 +374,7 @@ namespace RayTracingApp.Views
             new Point(40, 80),  // Нижняя вершина
             new Point(0, 40)    // Левая вершина
         },
-                Fill = Brushes.Green // Цвет заливки
+                Fill = Brushes.MediumPurple // Цвет заливки
             };
 
             // Устанавливаем позицию ромба на холсте (по центру)
@@ -389,14 +393,14 @@ namespace RayTracingApp.Views
             {
                 Points = new Avalonia.Collections.AvaloniaList<Point>
         {
-            new Point(50, 0),   // Верхняя середина
-            new Point(100, 25), // Верхний правый угол
-            new Point(125, 75), // Средина правой стороны
-            new Point(100, 125),// Нижний правый угол
-            new Point(50, 150), // Нижняя середина
-            new Point(0, 125),  // Нижний левый угол
-            new Point(-25, 75), // Средина левой стороны
-            new Point(0, 25)    // Верхний левый угол
+            new Point(30, 0),
+                    new Point(50, 0),
+                    new Point(80, 30),
+                    new Point(80, 50),
+                    new Point(50, 80),
+                    new Point(30, 80),
+                    new Point(0, 50),
+                    new Point(0, 30)
         },
                 Fill = Brushes.Black // Цвет заливки
             };
